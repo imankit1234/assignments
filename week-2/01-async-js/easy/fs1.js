@@ -9,14 +9,14 @@ fs.readFile('a.txt', 'utf8', (err, data) => {
 
   console.log('File contents:', data);
 
-  // Simulate an expensive operation
+  
   performExpensiveOperation();
 });
 
 function performExpensiveOperation() {
-  // Simulate an expensive operation
+  
   for (let i = 0; i < 1e7; i++) {
-    // This loop is just an example of an expensive operation
+   
   }
 
   console.log('Expensive operation completed.');
